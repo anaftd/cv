@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <script src="/js/pdfobject.js"></script>
-      <script>PDFobject.embed("/pdf/CNC.pdf", "#pdobject")</script>
       <style>
 .pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
 </style>
@@ -13,5 +11,7 @@
   <h1>Portafolio de Evidencias</h1>
   <div id="pdobject"></div>
   <h6>Curiculum Vitae</h6>
+      <script src="./js/pdfobject.js"></script>
+      <script>PDFobject.embed("./pdf/CNC.pdf", "#pdobject")</script>
 </body>
 <html>
