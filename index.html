@@ -9,9 +9,16 @@
       </title>
 </head><body>
   <h1>Portafolio de Evidencias</h1>
-  <div id="pdobject"></div>
-  <h6>Curiculum Vitae</h6>
+  <h3>CNC:</h3>
+  <div id="pdobjectcnc"></div>
+
+
+
       <script src="./js/pdfobject.js">console.log(PDFObject.pdfobjectversion);</script>
-      <script>PDFObject.embed("./pdf/CNC.pdf", "#pdobject");</script>
+      <script>PDFObject.embed("./pdf/CNC.pdf", "#pdobjectcnc", {page: "1"});</script>
+
+
+
+
 </body>
 <html>
